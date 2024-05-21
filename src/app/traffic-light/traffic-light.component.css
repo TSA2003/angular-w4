@@ -1,0 +1,88 @@
+.top {
+    display: flex;
+    flex-direction: row;
+}
+
+.left {
+    display: flex;
+    flex-direction: column;
+}
+
+.right {
+    display: flex;
+    flex-direction: column;
+}
+
+.bottom {
+    display: flex;
+    flex-direction: row;
+}
+
+.light {
+    width: 150px;
+    height: 150px;
+    margin-top: 25px;
+    margin-left: 25px;
+    border: 2px solid black;
+    border-radius: 50%;
+}
+
+.off div:nth-child(1) {
+    background-color: black;
+}
+
+.off div:nth-child(2) {
+    background-color: black;
+}
+
+.off div:nth-child(3) {
+    background-color: black;
+}
+
+.red div:nth-child(1) {
+    background-color: red;
+}
+
+.red div:nth-child(2) {
+    background-color: black;
+}
+
+.red div:nth-child(3) {
+    background-color: black;
+}
+
+.yellow div:nth-child(1) {
+    background-color: black;
+}
+
+.yellow div:nth-child(2) {
+    background-color: yellow;
+}
+
+.yellow div:nth-child(3) {
+    background-color: black;
+}
+
+.green div:nth-child(1) {
+    background-color: black;
+}
+
+.green div:nth-child(2) {
+    background-color: black;
+}
+
+.green div:nth-child(3) {
+    background-color: green;
+}
+
+.yellow div:nth-child(1) {
+    background-color: black;
+}
+
+.yellow div:nth-child(2) {
+    background-color: yellow;
+}
+
+.yellow div:nth-child(3) {
+    background-color: black;
+}

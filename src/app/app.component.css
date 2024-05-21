@@ -1,0 +1,40 @@
+.container {
+    display: grid;
+    grid-template-columns: 25% 50% 25%;
+    grid-template-rows: 25% 50% 25%;
+}
+
+.top {
+    grid-column: 2;
+    grid-row: 1;
+}
+
+.left {
+    grid-column: 1;
+    grid-row: 2;
+}
+
+.right {
+    grid-column: 3;
+    grid-row: 2;
+}
+
+.bottom {
+    grid-column: 2;
+    grid-row: 3;
+}
+
+.center {
+    grid-column: 2;
+    grid-row: 2;
+}
+
+.dangerButton {
+    margin-top: 25%;
+    margin-left: 25%;
+}
+
+.message {
+    font-size: 64px;
+    text-align: center;
+}

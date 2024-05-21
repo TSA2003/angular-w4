@@ -1,0 +1,6 @@
+<div [classList]="getClassNames()">
+    <div class="light"></div>
+    <div class="light"></div>
+    <div class="light"></div>
+</div>
+<button (click)="onButtonClick()" [disabled]="getState() == 'red'">Пресичане</button>
